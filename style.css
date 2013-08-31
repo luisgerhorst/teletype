@@ -14,3 +14,29 @@ Tags:
 	margin: 0;
 	padding: 0;
 }
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+article {
+	width: 100%;
+}
+
+article header.entry-header {
+	width: 100%;
+}
+
+article header.entry-header h1.entry-title {
+	display: inline;
+}
+
+article header.entry-header .entry-meta {
+	display: inline;
+}
+
+article .entry-content, article aside.entry-thumbnail {
+	width: 50%;
+	float: left;
+}

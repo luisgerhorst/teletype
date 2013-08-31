@@ -62,8 +62,10 @@
 <body <?php body_class(); ?>>
 		
 	<?php do_action('before'); ?>
+	
+	<div id="wrapper">
 		
-	<header>
+	<header id="header">
 		
 		<hgroup>
 			<h1 id="title"><a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name','display')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
