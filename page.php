@@ -1,9 +1,13 @@
 <?php get_header(); ?>
 
-<?php while ( have_posts() ) : the_post(); ?>
+<div id="entries">
 
-	<?php get_template_part( 'content', 'page' ); ?>
+	<?php while ( have_posts() ) : the_post(); ?>
+	
+		<?php get_template_part( 'content', 'page' ); ?>
+	
+	<?php endwhile; ?>
 
-<?php endwhile; // end of the loop. ?>
+</div>
 
 <?php get_footer(); ?>
