@@ -24,7 +24,7 @@
 	
 		// Add a page number if necessary:
 		if ( $paged >= 2 || $page >= 2 )
-			echo ' | ' . sprintf( __( 'Page %s', 'toolbox' ), max( $paged, $page ) );
+			echo ' | ' . sprintf( __( 'Page %s', 'teletype' ), max( $paged, $page ) );
 	
 	?></title>
 		

@@ -12,7 +12,7 @@
 	
 	</div>
 
-	<?php toolbox_content_nav('nav-below'); ?>
+	<?php teletype_content_nav('nav-below'); ?>
 
 <?php else : ?>
 	
@@ -21,11 +21,11 @@
 		<article>
 			
 			<header class="entry-header">
-				<h1 class="entry-title"><?php _e('Nichts gefunden','toolbox'); ?></h1>
+				<h1 class="entry-title"><?php _e('Nichts gefunden','teletype'); ?></h1>
 			</header>
 	
 			<div class="entry-content">
-				<p><?php _e('Es wurden leider keine Einträge gefunden.','toolbox'); ?></p>
+				<p><?php _e('Es wurden leider keine Einträge gefunden.','teletype'); ?></p>
 			</div>
 			
 		</article>
