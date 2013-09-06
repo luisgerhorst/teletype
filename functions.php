@@ -9,7 +9,8 @@ if (!function_exists('teletype_setup')):
 	
 		// menus
 		register_nav_menus(array(
-			'primary' => __('Primary Menu','teletype'),
+			'header' => __('Header Navigation','teletype'),
+			'footer' => __('Footer Links','teletype')
 		));
 	
 		// thumbnails

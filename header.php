@@ -61,7 +61,7 @@
 		</hgroup>
 		</a>
 	
-		<nav role="navigation"><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></nav>
+		<nav role="navigation"><?php wp_nav_menu(array('theme_location' => 'header')); ?></nav>
 		
 	</header>
 	
