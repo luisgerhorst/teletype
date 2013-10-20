@@ -105,9 +105,14 @@ p {
 	border-bottom: 1px #bbb solid;
 }
 
-#entries article:last-child {
+#entries article.sticky {
+	margin-bottom: 100px;
 	border-bottom: none;
-	margin-bottom: 0;
+}
+
+#entries article:last-child {
+	margin-bottom: none;
+	border-bottom: none;
 }
 
 #entries article header.entry-header {
