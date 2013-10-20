@@ -6,7 +6,7 @@ Author URI: http://luisgerhorst.de/
 Description: Simple, black on white theme created for Klaus Gerhorst's website <a href="http://klausgerhorst.de/">klausgerhorst.de</a>, based on <a href="http://wordpress.org/extend/themes/toolbox">Toolbox</a> version 1.4 by <a href="http://automattic.com/">Automattic</a>.
 Version: 1.0
 License: GNU General Public License
-License URI: LICENSE.txt
+License URI: license.txt
 Tags: black, white, images, text, simple, arial, html5
 */
 
@@ -82,7 +82,11 @@ p {
 	text-decoration: none;
 }
 
-#header nav ul li a:hover {
+#header nav ul:hover li.current-menu-item a {
+	background: #fff;
+}
+
+#header nav ul li a:hover, #header nav ul li.current-menu-item a, #header nav ul:hover li.current-menu-item a:hover {
 	background-color: #eee;
 }
 
