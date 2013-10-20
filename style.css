@@ -12,6 +12,7 @@ Tags: black, white, images, text, simple, arial, html5
 
 html {
 	background-color: #fff;
+	color: #000;
 }
 
 body {
@@ -37,6 +38,7 @@ p {
 #wrapper {
 	width: 900px;
 	margin: 0 auto;
+	padding: 0 50px;
 }
 
 #header {
@@ -67,7 +69,7 @@ p {
 #header nav ul {
 	height: 38px;
 	margin-top: 50px;
-	box-shadow: inset 0 1px #000, inset 0 -1px #000;
+	box-shadow: inset 0 1px #bbb, inset 0 -1px #bbb;
 	list-style: none;
 	font-size: 18px;
 	line-height: 18px;
@@ -87,7 +89,7 @@ p {
 
 #header nav ul li:hover a, #header nav ul li.current-menu-item a, #header nav ul:hover li.current-menu-item:hover a {
 	background-color: #f3f3f3;
-	box-shadow: inset 0 1px #000, inset 0 -1px #000;
+	box-shadow: inset 0 1px #b3b3b3, inset 0 -1px #b3b3b3;
 }
 
 #content {
@@ -100,7 +102,7 @@ p {
 	float: left;
 	padding-bottom: 25px;
 	margin-bottom: 50px;
-	border-bottom: 1px #000 solid;
+	border-bottom: 1px #bbb solid;
 }
 
 #entries article:last-child {
@@ -120,7 +122,6 @@ p {
 }
 
 #entries article header.entry-header h1.entry-title a {
-	color: #000;
 	text-decoration: none;
 }
 
@@ -162,6 +163,7 @@ footer {
 	width: 100%;
 	float: left;
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 footer, footer a {
