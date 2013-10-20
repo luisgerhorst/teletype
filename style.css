@@ -125,6 +125,10 @@ p {
 	text-decoration: none;
 }
 
+#entries article.sticky header.entry-header .entry-meta .entry-date {
+	display: none;
+}
+
 #entries article header.entry-header .entry-meta {
 	margin-left: 9px;
 	display: inline;
