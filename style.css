@@ -110,6 +110,11 @@ p {
 	border-bottom: none;
 }
 
+#entries article.category-meta {
+	margin-bottom: 100px;
+	border-bottom: none;
+}
+
 #entries article:last-child {
 	margin-bottom: none;
 	border-bottom: none;
