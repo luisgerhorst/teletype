@@ -129,6 +129,10 @@ p {
 	display: none;
 }
 
+#entries article.category-meta header.entry-header .entry-meta .entry-date {
+	display: none;
+}
+
 #entries article header.entry-header .entry-meta {
 	margin-left: 9px;
 	display: inline;
