@@ -44,17 +44,9 @@
 	<header id="header">
 		
 		<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-		<hgroup <?php if (get_header_image() != ''): ?>style="background-image: url(<?php echo header_image(); ?>); height: <?php echo get_custom_header()->height; ?>px; width: <?php echo get_custom_header()->width; ?>px;"<?php endif; ?>>
+		<hgroup>
 			
-			<?php if (display_header_text()): ?>
-				
-				<h1 id="title"><?php bloginfo('name'); ?></h1>
-			
-				<?php if ('' !== get_bloginfo('description' )): ?>
-					<h2 style="color: #<?php echo get_header_textcolor(); ?>;" id="description"><?php bloginfo('description'); ?></h2>
-				<?php endif; ?>
-			
-			<?php endif; ?>
+			<p id="html-logo"><span>Klaus</span><span>Gerhorst</span><span class="job-title">Architekt</span></p>
 			
 		</hgroup>
 		</a>

@@ -10,9 +10,52 @@ License URI: license.txt
 Tags: black, white, images, text, simple, arial, html5
 */
 
+/* HTML Logo */
+
+#html-logo {
+	font-size: 25px;
+	line-height: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	width: 900px;
+	height: 75px;
+	background: #f3f3f3;
+	padding: 25px 0 25px 35px;
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	transition: all 0.1s linear 0;
+	-webkit-transition: all 0.1s linear 0;
+	-moz-transition: all 0.1s linear 0;
+	-ms-transition: all 0.1s linear 0;
+	-o-transition: all 0.1s linear 0;
+}
+
+#html-logo:hover {
+	background: #f9f9f9;
+	color: #333;
+	transition: all 0.1s linear 0;
+	-webkit-transition: all 0.1s linear 0;
+	-moz-transition: all 0.1s linear 0;
+	-ms-transition: all 0.1s linear 0;
+	-o-transition: all 0.1s linear 0;
+}
+
+#html-logo span {
+	margin-right: 25px;
+	letter-spacing: 10px;
+}
+
+#html-logo span.job-title {
+	letter-spacing: 35px;
+	margin-right: 0;
+}
+
+/* end HTML Logo */
+
 html {
 	background-color: #fff;
-	color: #000;
+	color: #444;
 }
 
 body {
@@ -27,7 +70,7 @@ body {
 }
 
 a {
-	color: #000;
+	color: #444;
 	text-decoration: underline;
 }
 
