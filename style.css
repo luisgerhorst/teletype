@@ -17,11 +17,10 @@ Tags: black, white, images, text, simple, arial, html5
 	line-height: 25px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	width: 900px;
-	height: 75px;
-	background: #f3f3f3;
+	width: 865px;
+	height: 25px;
+	background-color: #f3f3f3;
 	padding: 25px 0 25px 35px;
-	box-sizing: border-box;
 	display: block;
 	text-align: center;
 	transition: all 0.1s linear 0;
