@@ -7,7 +7,7 @@
 	<footer>
 		
 		<p><?php printf(
-			__('&copy; %1$s %2$s', 'teletype'),
+			__('Copyright &copy; %1$s %2$s', 'teletype'),
 			date('Y'),
 			$options['copyright']
 		); ?></p>
