@@ -12,10 +12,6 @@ if (!function_exists('teletype_setup')):
 			'header' => __('Header Navigation','teletype'),
 			'footer' => __('Footer Links','teletype'),
 		));
-	
-		// thumbnails
-		add_theme_support('post-thumbnails');
-		set_post_thumbnail_size(450,100000);
 		
 		// header image
 		$defaults = array(
