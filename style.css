@@ -4,7 +4,7 @@ Theme URI: http://github.com/luisgerhorst/teletype
 Author: Luis Gerhorst
 Author URI: http://luisgerhorst.de/
 Description: Simple, black on white theme created for Klaus Gerhorst's website <a href="http://klausgerhorst.de/">klausgerhorst.de</a>, based on <a href="http://wordpress.org/extend/themes/toolbox">Toolbox</a> version 1.4 by <a href="http://automattic.com/">Automattic</a>.
-Version: 1.0
+Version: 1.1
 License: GNU General Public License
 License URI: license.txt
 Tags: black, white, images, text, simple, arial, html5
@@ -148,19 +148,29 @@ p {
 	display: inline;
 }
 
-#entries article .entry-content, article aside.entry-thumbnail {
-	float: left;
-}
-
 #entries article .entry-content {
-	width: 400px;
-	margin-right: 50px;
+	width: 100%;
 }
 
-#entries article aside.entry-thumbnail {
-	width: 450px;
-	padding-bottom: 25px;
+#entries article .entry-content img {
+	max-width: 100%;
+	height: auto;
 }
+
+/* rigth aligned images */
+
+#entries article .entry-content p img.alignright {
+	float: right;
+	max-width: 450px;
+	margin-left: 50px;
+	margin-bottom: 1px;
+}
+
+#entries article .entry-content p img.alignright:last-child {
+	margin-bottom: 25px;
+}
+
+/* end rigth aligned images */
 
 #nav-below {
 	display: block;

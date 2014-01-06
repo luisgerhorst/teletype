@@ -8,8 +8,4 @@
 		<?php the_content(); ?>
 	</div>
 	
-	<aside class="entry-thumbnail">
-		<?php if (has_post_thumbnail()) the_post_thumbnail(); ?>
-	</aside>
-	
 </article>
