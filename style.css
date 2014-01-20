@@ -110,9 +110,13 @@ p {
 #entries article {
 	width: 100%;
 	float: left;
-	padding-bottom: 25px;
+	padding-bottom: 50px;
 	margin-bottom: 50px;
 	border-bottom: 1px #bbb solid;
+}
+
+#entries article .entry-content > *:last-child {
+	margin-bottom: 0;
 }
 
 #entries article.sticky {
@@ -157,20 +161,26 @@ p {
 	height: auto;
 }
 
-/* rigth aligned images */
+#entries article .entry-content .wp-caption {
+	position: relative;
+	line-height: 0;
+}
 
-#entries article .entry-content p img.alignright {
+#entries article .entry-content .wp-caption .wp-caption-text {
+	position: absolute;
+	bottom: -25px;
+	left: 0px;
+	padding: 0 5px 0 0;
+	line-height: 25px;
+	background: #fff;
+}
+
+#entries article .entry-content .alignright {
 	float: right;
 	max-width: 450px;
 	margin-left: 50px;
 	margin-bottom: 1px;
 }
-
-#entries article .entry-content p img.alignright:last-child {
-	margin-bottom: 25px;
-}
-
-/* end rigth aligned images */
 
 #nav-below {
 	display: block;
