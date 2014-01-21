@@ -221,8 +221,9 @@ p {
 	position: absolute;
 	bottom: -25px;
 	left: 0px;
-	padding: 0 5px 0 0;
-	line-height: 25px;
+	padding: 1px 1px 1px 0;
+	line-height: 13px;
+	font-size: 13px;
 	background: #fff;
 }
 
