@@ -31,9 +31,9 @@ a {
 	text-decoration: underline;
 }
 
-p {
+/*p {
 	margin-bottom: 25px;
-}
+}*/
 
 #wrapper {
 	width: 900px;
@@ -115,10 +115,6 @@ p {
 	border-bottom: 1px #bbb solid;
 }
 
-#entries article .entry-content > *:last-child {
-	margin-bottom: 0;
-}
-
 #entries article.sticky {
 	border-bottom: none;
 }
@@ -154,6 +150,14 @@ p {
 
 #entries article .entry-content {
 	width: 100%;
+}
+
+#entries article .entry-content p {
+	margin-bottom: 25px;
+}
+
+#entries article .entry-content p:last-of-type {
+	margin-bottom: 0;
 }
 
 #entries article .entry-content img {
