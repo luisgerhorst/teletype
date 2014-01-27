@@ -46,7 +46,7 @@
 		<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
 		<hgroup>
 			
-			<p id="html-logo"><span>Klaus</span><span>Gerhorst</span><span class="job-title">Architekt</span></p>
+			<p id="html-logo"><span>K</span><span>Gerhorst</span><span class="job-title">Architekt</span></p>
 			
 		</hgroup>
 		</a>
