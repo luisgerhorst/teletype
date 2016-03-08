@@ -4,7 +4,7 @@ Theme URI: http://github.com/luisgerhorst/teletype
 Author: Luis Gerhorst
 Author URI: http://luisgerhorst.de/
 Description: Simple, black on white theme created for Klaus Gerhorst's website <a href="http://klausgerhorst.de/">klausgerhorst.de</a>, based on <a href="http://wordpress.org/extend/themes/toolbox">Toolbox</a> version 1.4 by <a href="http://automattic.com/">Automattic</a>.
-Version: 1.1
+Version: 1.1.1
 License: GNU General Public License
 License URI: license.txt
 Tags: black, white, images, text, simple, arial, html5
@@ -110,9 +110,6 @@ a {
 
 #header nav ul {
 	height: 38px;
-	margin-top: 50px;
-	border-top: 1px #bbb solid;
-	border-bottom: 1px #bbb solid;
 	list-style: none;
 	font-size: 18px;
 	line-height: 18px;
@@ -126,7 +123,8 @@ a {
 	text-decoration: none;
 }
 
-#header nav ul li a, #header nav ul:hover li.current-menu-item a {
+#header nav ul li a,
+#header nav ul:hover li.current-menu-item a {
 	background: none;
 	transition: all 0.1s linear 0;
 	-webkit-transition: all 0.1s linear 0;
@@ -135,9 +133,10 @@ a {
 	-o-transition: all 0.1s linear 0;
 }
 
-#header nav ul li:hover a, #header nav ul li.current-menu-item a, #header nav ul:hover li.current-menu-item:hover a {
+#header nav ul li:hover a,
+#header nav ul li.current-menu-item a,
+#header nav ul:hover li.current-menu-item:hover a {
 	background-color: #f3f3f3;
-	box-shadow: 0 1px #b3b3b3, 0 -1px #b3b3b3;
 	transition: all 0.1s linear 0;
 	-webkit-transition: all 0.1s linear 0;
 	-moz-transition: all 0.1s linear 0;
